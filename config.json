@@ -1,0 +1,21 @@
+{
+  "settings": {
+    "interval": 60000,
+    "sdkWaitTime": 20000,
+    "pageLoadTimeout": 60000,
+    "maxIterations": 1000,
+    "screenshotQuality": 80
+  },
+  "devices": [
+    "iPhone 15 Pro",
+    "Pixel 6", 
+    "iPad (gen 7)",
+    "Desktop Chrome",
+    "Galaxy S23"
+  ],
+  "screenshotOptions": {
+    "fullPage": true,
+    "type": "png",
+    "prefix": "screenshot"
+  }
+}
