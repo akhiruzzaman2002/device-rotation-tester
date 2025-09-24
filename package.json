@@ -1,0 +1,27 @@
+{
+  "name": "device-rotation-tester",
+  "version": "1.0.0",
+  "description": "Automated multi-device browser testing tool using Playwright",
+  "main": "device-rotation-test.js",
+  "scripts": {
+    "start": "node device-rotation-test.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "npx playwright install",
+    "dev": "node device-rotation-test.js --dev"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "testing",
+    "device-testing",
+    "browser-testing"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "playwright": "^1.40.0"
+  }
+}
